@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700&family=Raleway:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Saira+Semi+Condensed:wght@400;700&display=swap');
+
+
+* {
+  box-sizing: border-box;
+  font-family: 'Saira Semi Condensed', sans-serif;
+
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  z-index: -998;
+}
+
+.watch {
+  background-image: url('https://i.imgur.com/qBnZDm6.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30rem;
+  height: 30rem;
+  overflow: hidden;
+}
+
+.screen {
+  position: relative;
+  height: 12rem;
+  width: 10rem;
+}
+
+.time {
+  font-size: 1.5rem;
+  position: absolute;
+  width: min-content;
+  display: inline-block;
+  top: 0;
+  right: 0;
+  color: rgb(255, 255, 255, 0.8);
+  font-weight: 100;
+  margin: 0;
+  padding: 0;
+  text-align: right;
+  font-weight: 400;
+  line-height: 1;
+  overflow: hidden;
+  z-index: -999;
+}
+
+.hour {
+  color: orange;
+  font-size: 5rem;
+}
+
+.minute {
+  color: rgb(0, 162, 255);
+  font-size: 3.5rem;
+}
+
+.cal {
+  position: absolute;
+  display: inline-block;
+  top: 0;
+  left: 0;
+  margin: 0;
+  padding: 0;
+  width: min-content;
+  text-align: center;
+}
+
+.day {
+  color: rgb(255, 255, 255, 0.8);
+  margin: 0;
+  padding: 0;
+}
+
+.nameday {
+  font-size: 1.2rem;
+  color: red;
+}
+
+
+.region {
+  position: absolute;
+  bottom: 0;
+}
+
+.region p {
+  color: rgb(255, 255, 255, 0.8);
+  margin: 0;
+  padding: 0;
+}
+
+
+.menu {
+  position: absolute;
+  top: 40%;
+  left: -.5rem;
+  width: 5rem;
+  text-align: center;
+}
+
+.menu img {
+  width: 2.2rem;
+  padding: 0 .2rem 0 .2rem;
+  opacity: 0.9;
+}
+
+.charge {
+  position: absolute;
+  right: 1rem;
+  bottom: 0;
+}
+
+.charge img {
+  width: 1rem;
+  opacity: 0.9;
+}
