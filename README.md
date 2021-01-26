@@ -1,7 +1,7 @@
-# iOS-Calculator
+# Apple Watch Custom Homescreen
 
-Made with React Hooks and pure JavaScript logic. Mobile responsive.
+Made with React Hooks and pure CSS. Mobile responsive.
 
-[CHECK IT OUT HERE](https://kasjanhinc.github.io/iOS-Calculator/)
+[CHECK IT OUT HERE](https://kasjanhinc.github.io/AppleWatch/)
 
-![iOS Calculator](./src/img/watch.png)
+![Apple Watch](./src/img/watch.png)
