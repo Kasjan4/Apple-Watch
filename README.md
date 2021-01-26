@@ -2,6 +2,6 @@
 
 Made with React Hooks and pure CSS. Time, date, location and weather included. Mobile responsive.
 
-[CHECK IT OUT HERE](https://kasjanhinc.github.io/AppleWatch/)
+[CHECK IT OUT HERE](https://kasjanhinc.github.io/Apple-Watch/)
 
 ![Apple Watch](./src/img/watch.png)
